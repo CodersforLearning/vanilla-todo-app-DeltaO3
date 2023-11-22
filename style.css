@@ -1,0 +1,51 @@
+body {
+	background: radial-gradient(circle at 80%, rgb(227, 132, 232), rgb(113, 104, 128));
+}
+
+
+#title {
+	display: flex;
+	justify-content: center;
+	font-size: xx-large;
+	color:black;
+}
+
+hr {
+	color: black;
+	height: 12px;
+	background: black;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input {
+	background-color: rgb(173, 173, 173);
+	border: 3px solid black;
+	border-radius: 40px;
+	width: 200px;
+	height: 80px;
+	padding: 20px;
+	margin: 10px;
+}
+
+#taskAdd {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+}
+
+.taskList {
+	background-color: rgb(173, 173, 173);
+	border: 3px solid black;
+	border-radius: 40px;
+	min-width: 400px;
+	min-height: 100px;
+	padding: 20px;
+	margin: 10px;
+}
+
